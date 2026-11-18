@@ -81,5 +81,5 @@ In **2026** I brought it up to date:
 ## Ideas for the future
 
 - Connect the microphone button on the **Get help** screen to speech-to-text (the button is there but not wired up yet).
+- A **WhatsApp** button on a request, so the helper can message the student directly. I started it in the original version but didn't finish it, and the unfinished code was removed in 2026.
 - Move the data to a server (for example Firebase) so students on different phones can see each other's requests. Today everything is stored locally on one device.
-- Let a helper reply to a request or start a chat.

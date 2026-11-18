@@ -99,33 +99,6 @@ public class GivehelpFragment extends Fragment {
             }
         });
 
-        /*
-        sentToWhatsAppbutton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String phoneNumber = getHelpEditText.getText().toString();
-                String message = "הנה טקסט וסרטון:\n\n" + "0543751717";//.getText().toString();//
-
-                ArrayList<Uri> uris = new ArrayList<>();
-                uris.add(Uri.parse("/path/to/video.mp4"));
-
-                Intent sendIntent = new Intent();
-                sendIntent.setAction(Intent.ACTION_SEND_MULTIPLE);
-                sendIntent.putExtra(Intent.EXTRA_TEXT, message);
-                sendIntent.setType("video/mp4"); // התאם את סוג ה-MIME לפי סוג הקובץ
-                sendIntent.setPackage("com.whatsapp");
-                sendIntent.putExtra("jid", phoneNumber + "@s.whatsapp.net");
-                sendIntent.putParcelableArrayListExtra(Intent.EXTRA_STREAM, uris);
-
-                try {
-                    startActivity(sendIntent);
-                } catch (ActivityNotFoundException ex) {
-                    Toast.makeText(getContext(), "WhatsApp is not installed", Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
-
-         */
         return v;
 
     }
