@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/regpage"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/suezoneregular"
+        android:text="edit user"
+        android:textAlignment="center"
+        android:textColor="#1D8E95"
+        android:textSize="50sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/photoView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/profile"
+        tools:ignore="MissingClass" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/custom_edittext"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="8dp"
+            android:hint="user name"
+            android:padding="8dp"
+            android:textColor="#54A39C"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/useremail"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/custom_edittext"
+            android:drawableLeft="@drawable/baseline_local_post_office_24"
+            android:drawablePadding="8dp"
+            android:hint="email"
+            android:padding="8dp"
+            android:textColor="#54A39C"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/useryear"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/custom_edittext"
+            android:drawableLeft="@drawable/baseline_list_24"
+            android:drawablePadding="8dp"
+            android:hint="birth date"
+            android:padding="8dp"
+            android:textColor="#54A39C"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/userphone"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/custom_edittext"
+            android:drawableLeft="@drawable/baseline_add_call_24"
+            android:drawablePadding="8dp"
+            android:hint="phone"
+            android:padding="8dp"
+            android:textColor="#54A39C"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/userpassword"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/custom_edittext"
+            android:drawableLeft="@drawable/baseline_password_24"
+            android:drawablePadding="8dp"
+            android:hint="password"
+            android:padding="8dp"
+            android:textColor="#54A39C"
+            android:textColorHighlight="@color/cardview_dark_background" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/editBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#ECCDB8"
+            android:fontFamily="@font/rasaregular"
+            android:text="save"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/deleteBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#ECCDB8"
+            android:fontFamily="@font/rasaregular"
+            android:text="delete"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </LinearLayout>
+</LinearLayout>

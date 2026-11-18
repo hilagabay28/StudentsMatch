@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/rateBtn"
+        android:enabled="true"
+        android:icon="@drawable/star_24px"
+        android:title="Rate"/>
+    <item
+        android:id="@+id/helpBtn"
+        android:enabled="true"
+        android:icon="@drawable/person_raised_hand_24px"
+        android:title="Help"/>
+    <item
+        android:id="@+id/assistBtn"
+        android:enabled="true"
+        android:icon="@drawable/accessibility_new_24px"
+        android:title="Assist"/>
+</menu>

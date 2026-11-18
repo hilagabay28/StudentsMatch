@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RateActivity"
+    android:background="#A8E3E6"
+    >
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate the professions - in which profession do I need help?"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="#FCFDFD"
+        android:fontFamily="@font/suezoneregular"
+        android:layout_marginTop="20dp"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/llSubjects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#ECCDB8"
+        android:fontFamily="@font/rasaregular"
+        android:text="save"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginStart="23dp"
+        />
+
+</LinearLayout>

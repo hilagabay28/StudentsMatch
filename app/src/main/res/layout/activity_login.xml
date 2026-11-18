@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backround_log"
+    >
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:src="@drawable/logowelcomremovebg"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="-10dp"
+       />
+
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textColor="#1D8E95"
+        android:fontFamily="@font/suezoneregular"
+        android:layout_marginTop="-30dp"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layoutDirection="ltr"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="47dp"
+            android:src="@drawable/is_user"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="25dp"
+            >
+
+        </ImageView>
+
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/custom_edittext"
+            android:drawablePadding="8dp"
+            android:hint="User name"
+            android:padding="8dp"
+            android:textColor="#54A39C"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layoutDirection="ltr"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="47dp"
+            android:src="@drawable/padlock"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="25dp"
+            >
+
+        </ImageView>
+
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/custom_edittext"
+            android:drawablePadding="8dp"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textColor="#54A39C"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/loginbutton"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_margin="20dp"
+            android:backgroundTint="#82D1CE"
+            android:text="login"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+           />
+
+
+
+    </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/gotoReg"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|end"
+            android:fontFamily="@font/rasafont"
+            android:text="dont have an Account?"
+            android:textSize="17dp"
+            android:textColor="@color/black" />
+
+</LinearLayout>
+

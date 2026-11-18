@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".StartActivity"
+    android:background="#A8E3E6">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logoappremovebg" />
+
+
+<!--    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton-->
+<!--        android:id="@+id/tologinButton"-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:backgroundTint="#82C5D1"-->
+<!--        android:text="start"-->
+<!--        android:textSize="25dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:fontFamily="@font/rasaregular"-->
+<!--        />-->
+
+
+
+</LinearLayout>
