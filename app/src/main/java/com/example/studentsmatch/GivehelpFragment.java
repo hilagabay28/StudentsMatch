@@ -79,9 +79,10 @@ public class GivehelpFragment extends Fragment {
                 // Do something when the user touches and releases an item
 // Do something when the user touches and releases an item
 
-                int position = rv.getChildAdapterPosition(rv.findChildViewUnder(e.getX(), e.getY()));
+                View row = rv.findChildViewUnder(e.getX(), e.getY());
+                int position = row == null ? RecyclerView.NO_POSITION : rv.getChildAdapterPosition(row);
 
-                if (e.getAction() == MotionEvent.ACTION_DOWN) {
+                if (e.getAction() == MotionEvent.ACTION_UP && position != RecyclerView.NO_POSITION) {
 
                     //pressed
                     Intent it=new Intent(getContext(),HelpDescriptionActivity.class);

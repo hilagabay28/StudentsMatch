@@ -54,6 +54,10 @@ public class HelpDescriptionActivity extends AppCompatActivity {
 
         Request request=(Request) getIntent().getSerializableExtra("request");
         init();
+        // This screen opens on top of the home screen, so the bottom menu isn't shown here.
+        // The arrow closes it and returns to the list.
+        ((com.google.android.material.appbar.MaterialToolbar) findViewById(R.id.detailsToolbar))
+                .setNavigationOnClickListener(v -> finish());
 
         nameEt.setText(request.getRequestname());
         subjectEt.setText(request.getRequestsubject());
