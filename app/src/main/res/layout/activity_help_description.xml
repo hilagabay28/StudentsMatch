@@ -110,4 +110,31 @@
 
     </LinearLayout>
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/whatsappBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:text="Message on WhatsApp"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        app:backgroundTint="#25D366"
+        app:cornerRadius="24dp"
+        app:icon="@drawable/baseline_add_call_24"
+        app:iconTint="@color/white"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/whatsappNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:textSize="14dp"
+        android:visibility="gone" />
+
 </LinearLayout>

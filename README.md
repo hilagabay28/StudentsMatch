@@ -24,6 +24,7 @@ A student rates which subjects they're strong in and which they need help with. 
 - **Rate your subjects**: for each subject the student marks "good at" or "need help".
 - **Get help**: post a request with a subject, a description and an optional exercise photo picked from the gallery (Android Photo Picker).
 - **Give help**: a list (`RecyclerView`) of requests in the subjects *you* are good at. Tap one to see its details.
+- **Message on WhatsApp**: from a request, the helper can open a WhatsApp chat with the student, using the phone number from the student's profile and a ready-made first message.
 - **Edit or delete your profile**, including a new photo and an optional new password.
 - Bottom navigation with fragments, Material 3 components, custom fonts and illustrations.
 
@@ -76,10 +77,10 @@ In **2026** I brought it up to date:
 - Fixed the profile photo: changing it from the edit screen wasn't saved, and large camera photos could crash the app or appear rotated.
 - Passwords are now stored as salted PBKDF2 hashes instead of plain text, and no longer saved on the device for "remember me". Existing accounts are upgraded automatically the next time they log in.
 - Fixed a crash when sending a help request without a photo, and a bug where changing your user name lost your edits.
+- Finished the WhatsApp button I started in the original version: it now opens a chat with the student who asked for help.
 - Cleaned up: one log tag, removed dead code and leftover placeholder labels, fixed typos in error messages, renamed classes to Android naming conventions.
 
 ## Ideas for the future
 
 - Connect the microphone button on the **Get help** screen to speech-to-text (the button is there but not wired up yet).
-- A **WhatsApp** button on a request, so the helper can message the student directly. I started it in the original version but didn't finish it, and the unfinished code was removed in 2026.
 - Move the data to a server (for example Firebase) so students on different phones can see each other's requests. Today everything is stored locally on one device.
