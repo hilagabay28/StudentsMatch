@@ -2,8 +2,7 @@
 
 **here when you need it** — an Android app that connects students who need help in a subject with students who are good at it.
 
-> **A high-school project.** I planned, designed and built StudentsMatch on my own in 2023–2024 as my final project in the high-school software engineering track (5 units), without AI tools. It is kept here as a finished school project. It's not an app I'm still developing.
-
+> **A high-school project.** I planned, designed and built StudentsMatch on my own in 2023–2024 as my final project in the high-school software engineering track (5 units), without AI tools. It is kept here as a finished school project. 
 <p>
   <img src="docs/screenshots/01-splash.png" width="200" alt="Splash screen">
   <img src="docs/screenshots/02-login.png" width="200" alt="Login">
